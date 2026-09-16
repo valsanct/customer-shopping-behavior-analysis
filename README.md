@@ -208,24 +208,24 @@ Use customer behavior and demographics to create more relevant marketing campaig
 ```text
 customer-shopping-behavior-analysis/
 │
-├── data/
+├── 0.dataset/
 │   └── customer_shopping_behavior.csv
 │
-├── python/
-│   └── data_preparation.py
+├── 1.data_preparation_and_modeling/
+│   └── notebook.py
 │
-├── sql/
-│   └── business_analysis.sql
+├── 2.data_analysis/
+│   └── queries.sql
 │
-├── powerbi/
-│   └── customer_shopping_behavior.pbix
+├── 3.visualization_and_insights/
+│   └── dashboard.pbix
 │
-├── report/
-│   └── customer_shopping_behavior_report.pdf
+├── 4.report/
+│   └── document.pdf
 │
-├── images/
-│   ├── dashboard_page_1.png
-│   ├── dashboard_page_2.png
+├── 5.images/
+│   ├── 01.png
+│   ├── 02.png
 │   └── workflow.png
 │
 └── README.md
